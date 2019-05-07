@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <!-- style allows css coding in html-->
+    <style>
+        .wrapper {
+            display: grid;
+            grid-template-columns: 70% 30%;
+            /*  This is the same as...
+            
+            grid-column-gap: 1em;
+            grid-row-gap: 1em;
+            
+            the grid gap below */
+            
+            grid-gap: 1em;
+            
+        }
+        
+        .wrapper > div {
+            background: #eee;
+            padding: 1em;
+        }
+        .wrapper > div:nth-child(odd) {
+            background: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+       <div>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium numquam fugit sunt accusamus aperiam, rem dolorem magnam, odio earum eveniet assumenda pariatur odit provident similique beatae minus in, ipsum est quaerat non ratione reiciendis. Natus reiciendis nam reprehenderit facere debitis voluptatem obcaecati quam voluptas saepe laudantium impedit dolorem, itaque ipsam cumque ipsa modi, minus. Reiciendis dolor, explicabo odit obcaecati architecto quo unde ducimus voluptatem! Iste quisquam nisi quos rerum quis doloremque corrupti, minima aspernatur! Dolore obcaecati vel, ratione laudantium voluptate.
+       </div>
+  
+    
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi alias maxime, ex, inventore a pariatur culpa consequatur. Eveniet dolorum dolores atque doloremque delectus accusamus, sequi dolore expedita saepe nobis quibusdam.
+        </div>
+        
+               <div>
+             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium numquam fugit sunt accusamus aperiam, rem dolorem magnam, odio earum eveniet assumenda pariatur odit provident similique beatae minus in, ipsum est quaerat non ratione reiciendis. Natus reiciendis nam reprehenderit facere debitis voluptatem obcaecati quam voluptas saepe laudantium impedit dolorem, itaque ipsam cumque ipsa modi, minus. Reiciendis dolor, explicabo odit obcaecati architecto quo unde ducimus voluptatem! Iste quisquam nisi quos rerum quis doloremque corrupti, minima aspernatur! Dolore obcaecati vel, ratione laudantium voluptate.
+       </div>
+  
+    
+        <div>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi alias maxime, ex, inventore a pariatur culpa consequatur. Eveniet dolorum dolores atque doloremque delectus accusamus, sequi dolore expedita saepe nobis quibusdam.
+        </div>
+        <div>Hi there!</div>
+    </div>
+</body>
+</html>
